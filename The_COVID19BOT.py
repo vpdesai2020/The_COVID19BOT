@@ -65,7 +65,7 @@ def error(bot, update):
     logger.warning('Update "%s" caused error "%s"', update, bot.error)
 
 def main():
-    updater = Updater('844537889:AAHyfuJiV9vz556SS4ZjC-GBpRKHnYi8W0Q')
+    updater = Updater('YOUR KEY')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
     dp.add_handler(CommandHandler('All',All))
